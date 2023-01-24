@@ -1,0 +1,34 @@
+.card{
+  background-color: rgb(213, 213, 131);
+  padding: 10px;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.note-list{
+  display: grid;
+  grid-gap: 10px;
+  /*; */
+}
+.card.new{
+  background-color: aquamarine;
+}
+textarea{
+  border: 0;
+  resize: none;
+  background-color: aquamarine;
+}
+textarea:focus{
+  outline: none;
+}
+
+.App{
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
